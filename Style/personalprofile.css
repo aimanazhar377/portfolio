@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+body{
+	background-image: url("background.jpg");
+}
+
+nav{
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
+}
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 30px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	
+}
+
+a.active, a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+
+.print-area{
+	width: 80%;
+	margin: 20px auto;
+	box-shadow: 0px 0px 10px 10px lightblue;
+}
+
+.print-area .header{
+	width: 100%;
+	height: 150px;
+	background-color: rgb(31,34,43);
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.header img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	left: 110px;
+	border: 5px solid white;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+	cursor: pointer;
+	transition: .5s;
+	user-select: none;
+}
+
+.header img:hover{
+	filter: saturate(150%);
+	transform: scale(1.15);
+	box-shadow: 3px 3px 20px rgba(0,0,0,.5);
+}
+
+.header-text{
+	color: white;
+	width: 60%;
+	margin-left: auto;
+}
+
+.header-text h1{
+	font-size: 80px;
+	font-weight: normal;
+}
+
+.header-text p{
+	font-size: 20px;
+	color: lightgray;
+}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left-area{
+	width: 30%;
+	background-color: rgb(236,236,236);
+	text-align: center;
+	padding-bottom: 20px;
+	box-shadow: 0px 0px 10px 10px lightblue;
+}
+
+.left-area .contact{
+	margin-top: 130px;
+	padding: 0 30px;
+}
+
+.contact h4{
+	font-size: 35px;
+	font-weight: normal;
+	margin: 20px 0;
+}
+
+.contact h5{
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.contact p{
+	font-size: 17px;
+	margin-bottom:35px;
+}
+
+.skill{
+	padding-top: 60px;
+}
+
+.skill h1{
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.skill p{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.container {
+
+	width: 80%; 
+	background-color: rgb(192, 191, 191); 
+	margin-left:45px;
+	border-radius: 1%;
+}
+
+.bar {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white;
+  border-radius: 1%;
+  margin-bottom:15px;
+}
+
+.c {width: 90%; background-color: black;} 
+.java {width: 90%; background-color: black;} 
+.html {width: 80%; background-color: black;} 
+.mysql {width: 80%; background-color: black;} 
+.photoshop {width: 75%; background-color: black;} 
+.office {width: 90%; background-color: black;} 
+
+.malay {width: 90%; background-color: black;} 
+.english {width: 90%; background-color: black;} 
+.mandarin {width: 60%; background-color: black;} 
+
+.language{
+	padding-top: 40px;
+}
+
+.preferences{
+	padding-top:800px;
+}
+
+.preferences h1{
+	font-size: 30px;
+	font-weight: normal;
+}
+
+
+.preferences p{
+	font-size: 18px;
+	color: black;
+	margin: 10px 0;
+}
+
+
+
+
+
+.right-area{
+	width: 70%;
+	padding: 50px;
+	background-color: white;
+	box-shadow: 5px 5px lightblue;
+}
+
+hr{
+	 width: 95%;
+	 text-align: left;
+	 margin-left: 20px;
+	 margin-top: 40px;
+	 margin-bottom: 40px;
+}
+
+.right-area h1{
+	font-size: 35px;
+	font-weight:  normal;
+}
+
+.right-area h1 span{
+	margin-right: 30px;
+	font-size: 50px;
+	color: gray;
+}
+
+.right-area p{
+	padding-left: 70px;
+	text-align: justify;
+	word-break: break-all;
+	font-size: 18px;
+	color: gray;
+	margin-top: 10px;
+}
+
+.education ul{
+	padding-left: 70px;
+	text-align: justify;
+	word-break: break-all;
+	font-size: 18px;
+	color: gray;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.education dd{
+	font-weight: normal;
+}
+
+.education table, th, td{
+	border: 2px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+.strength ul{
+	padding-left: 70px;
+	text-align: justify;
+	word-break: break-all;
+	font-size: 18px;
+	color: gray;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.work .work-group{
+	position: relative;
+}
+
+.work-group{
+	font-size: 22px;
+	font-weight: normal;
+	padding-left: 70px;
+}
+
+.work-group h{
+	font-size: 18px;
+	padding-left: 70px;
+	font-weight: normal;
+	color: gray;
+}
+
+.work-group span{
+	position: absolute;
+	top: 10px;
+	right: 100px;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.work-group p{
+	padding-left: 0;
+	text-align: justify;
+	padding-bottom: 40px;
+}
+
+.video{
+	margin-left: 60px;
+}
+
+table#table1 th{
+	font-style: italic;
+	background: lightblue;
+	text-align: center;
+}
+
+table#table1{
+	margin-left: 50px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+

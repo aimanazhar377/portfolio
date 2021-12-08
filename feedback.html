@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Form</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="Style/contact_me.css">
+    <link rel="stylesheet" href="Style/all.min.css">
+    <script src="Javascript/all.min.js"></script>
+</head>
+<body>
+    <nav>
+        <label class="logo">AIMAN AZHAR</label>
+        <ul>
+			<div class="zz">
+				<li><a href="index.html">Personal Profile</a></li>
+				<li><a href="photo_Gallery.html">Photo Gallery</a></li>
+				<li><a href="subject_taken.html">Subject Taken</a></li>
+				<li><a href="matric_card.html">Matric Card</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			</div>
+		</ul>
+    </nav>	
+
+
+    <div class="box">
+        <img src="Gambar/Emang.jpg" alt="" class="box-img">
+        
+        <br><br><h1 style="font-weight: bold;">My Social Media</h1><br>
+        <h4>Follow me on Instagram and Facebook below<h4>
+        <p>You also can contact me through WhatsApp :)</p><br>
+        
+        <ul>
+            <li><a href="https://www.instagram.com/aimanazhar36/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>&nbsp
+            &nbsp<li><a href="https://www.facebook.com/aiman.azhar.5492?__tn__=%3C" target="_blank"><i class="fab fa-facebook-square"></i></a></li>&nbsp
+            &nbsp<li><a href="https://wa.me/601157547846" target="_blank"><i class="fab fa-whatsapp-square"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Feedback Form</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn" onclick="show_alert()">Send</button>
+			</div>
+		</div>
+	</div>
+
+    <script>
+        function show_alert(){
+            alert("Your feedback has been stored. Thank you! :)");
+        }
+    </script>
+</body>
+</html>
